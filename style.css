@@ -1,0 +1,48 @@
+
+  body {
+    background-color:#b5c2c7 
+  }
+  
+  header {
+    background-color: #e7cac2 ;
+    font-size: 15px;
+  }
+  
+  footer{
+    background-color: #e8e8e8 ;
+    font-size: 10px;
+  }
+  
+  header div, main div, footer div {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header, main, footer {
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  header, h1, h2, h3, footer {
+    text-align: center;
+  }
+  
+  /* profile photo */
+  .center {
+    display: block;
+    margin: auto;
+  }
+  
+  /* circle profile photo */
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* anchor element pseudo-class selectors */
+  a:link {color:blue}
+  a:visited {color:purple}
+  a:hover {color:hotpink}
+  a:active {color:darkcyan}  
